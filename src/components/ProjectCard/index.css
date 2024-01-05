@@ -1,0 +1,55 @@
+.project-image {
+  height: 300px;
+  width: 450px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(245, 226, 242);
+  margin-bottom: 25px;
+  height: 300px;
+  padding-left: 25px;
+  border-radius: 8px;
+}
+
+.para {
+  width: 400px;
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-btn {
+  border: 2px solid gray;
+  background-color: white;
+  padding: 5px 8px 5px 8px;
+  border-radius: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .project-image {
+    height: 150px;
+    width: 150px;
+  }
+
+  .list-item {
+    width: 280px;
+    height: 350px;
+    padding: 10px;
+    margin-left: 0px;
+  }
+
+  .para {
+    width: 100px;
+    padding: 5px;
+    font-size: 12px;
+  }
+}
